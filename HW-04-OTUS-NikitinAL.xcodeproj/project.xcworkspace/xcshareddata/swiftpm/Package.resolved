@@ -1,6 +1,15 @@
 {
   "pins" : [
     {
+      "identity" : "alnservices",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexanderleo0/ALNServices",
+      "state" : {
+        "branch" : "main",
+        "revision" : "60d0ef10757b516554131300efd72516077fb464"
+      }
+    },
+    {
       "identity" : "alnui",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/alexanderleo0/ALNUI",

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7B20555029DF58A9004F4053 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B20554F29DF58A9004F4053 /* MainViewModel.swift */; };
 		7B20555629DF5A08004F4053 /* VMforStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B20555529DF5A08004F4053 /* VMforStores.swift */; };
+		7B3051E729EEDED6002FB1E9 /* ALNServices in Frameworks */ = {isa = PBXBuildFile; productRef = 7B3051E629EEDED6002FB1E9 /* ALNServices */; };
 		7B39296C29DC18760065B0B4 /* HW_04_OTUS_NikitinALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B39296B29DC18760065B0B4 /* HW_04_OTUS_NikitinALApp.swift */; };
 		7B39296E29DC18760065B0B4 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B39296D29DC18760065B0B4 /* MainScreen.swift */; };
 		7B39297029DC18770065B0B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B39296F29DC18770065B0B4 /* Assets.xcassets */; };
@@ -20,7 +21,6 @@
 		7BB5D4D129EED8570082CE6D /* ALNUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7BB5D4D029EED8570082CE6D /* ALNUI */; };
 		7BB5D4D429EED87E0082CE6D /* NavStack in Frameworks */ = {isa = PBXBuildFile; productRef = 7BB5D4D329EED87E0082CE6D /* NavStack */; };
 		7BB5D4D729EED8B10082CE6D /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 7BB5D4D629EED8B10082CE6D /* Networking */; };
-		7BB5D4DC29EEDA7C0082CE6D /* ALNServices in Frameworks */ = {isa = PBXBuildFile; productRef = 7BB5D4DB29EEDA7C0082CE6D /* ALNServices */; };
 		7BE8581F29E052520097FCF8 /* VMforDeals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8581E29E052520097FCF8 /* VMforDeals.swift */; };
 		7BE8582429E089C30097FCF8 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8582329E089C30097FCF8 /* Extensions.swift */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,6 @@
 		7B3929A329DC3E950065B0B4 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
 		7B69486F29DC610F00A322BA /* Injected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
 		7B69487329DDF2FF00A322BA /* Store+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+Identifiable.swift"; sourceTree = "<group>"; };
-		7BB5D4DA29EEDA440082CE6D /* ALNServices */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ALNServices; sourceTree = "<group>"; };
 		7BE8581E29E052520097FCF8 /* VMforDeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMforDeals.swift; sourceTree = "<group>"; };
 		7BE8582329E089C30097FCF8 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,8 +47,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BB5D4D429EED87E0082CE6D /* NavStack in Frameworks */,
+				7B3051E729EEDED6002FB1E9 /* ALNServices in Frameworks */,
 				7BB5D4D729EED8B10082CE6D /* Networking in Frameworks */,
-				7BB5D4DC29EEDA7C0082CE6D /* ALNServices in Frameworks */,
 				7BB5D4D129EED8570082CE6D /* ALNUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,7 +59,6 @@
 		7B39295F29DC18760065B0B4 = {
 			isa = PBXGroup;
 			children = (
-				7BB5D4D829EEDA300082CE6D /* Packages */,
 				7B39296A29DC18760065B0B4 /* HW-04-OTUS-NikitinAL */,
 				7B39296929DC18760065B0B4 /* Products */,
 				7B39299C29DC2FED0065B0B4 /* Frameworks */,
@@ -141,14 +139,6 @@
 			path = "Model+Ext";
 			sourceTree = "<group>";
 		};
-		7BB5D4D829EEDA300082CE6D /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				7BB5D4DA29EEDA440082CE6D /* ALNServices */,
-			);
-			name = Packages;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,7 +159,7 @@
 				7BB5D4D029EED8570082CE6D /* ALNUI */,
 				7BB5D4D329EED87E0082CE6D /* NavStack */,
 				7BB5D4D629EED8B10082CE6D /* Networking */,
-				7BB5D4DB29EEDA7C0082CE6D /* ALNServices */,
+				7B3051E629EEDED6002FB1E9 /* ALNServices */,
 			);
 			productName = "HW-04-OTUS-NikitinAL";
 			productReference = 7B39296829DC18760065B0B4 /* HW-04-OTUS-NikitinAL.app */;
@@ -203,6 +193,7 @@
 				7BB5D4CF29EED8570082CE6D /* XCRemoteSwiftPackageReference "ALNUI" */,
 				7BB5D4D229EED87E0082CE6D /* XCRemoteSwiftPackageReference "NavStack" */,
 				7BB5D4D529EED8B10082CE6D /* XCRemoteSwiftPackageReference "Networking" */,
+				7B3051E529EEDED6002FB1E9 /* XCRemoteSwiftPackageReference "ALNServices" */,
 			);
 			productRefGroup = 7B39296929DC18760065B0B4 /* Products */;
 			projectDirPath = "";
@@ -444,6 +435,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		7B3051E529EEDED6002FB1E9 /* XCRemoteSwiftPackageReference "ALNServices" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexanderleo0/ALNServices";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		7BB5D4CF29EED8570082CE6D /* XCRemoteSwiftPackageReference "ALNUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/alexanderleo0/ALNUI";
@@ -471,6 +470,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		7B3051E629EEDED6002FB1E9 /* ALNServices */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B3051E529EEDED6002FB1E9 /* XCRemoteSwiftPackageReference "ALNServices" */;
+			productName = ALNServices;
+		};
 		7BB5D4D029EED8570082CE6D /* ALNUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7BB5D4CF29EED8570082CE6D /* XCRemoteSwiftPackageReference "ALNUI" */;
@@ -485,10 +489,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7BB5D4D529EED8B10082CE6D /* XCRemoteSwiftPackageReference "Networking" */;
 			productName = Networking;
-		};
-		7BB5D4DB29EEDA7C0082CE6D /* ALNServices */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ALNServices;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
