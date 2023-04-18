@@ -1,0 +1,41 @@
+{
+  "pins" : [
+    {
+      "identity" : "alnui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexanderleo0/ALNUI",
+      "state" : {
+        "branch" : "HW-04",
+        "revision" : "b9926641643cb8c81bedee3f8cc943dadfd25866"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher",
+      "state" : {
+        "revision" : "af4be924ad984cf4d16f4ae4df424e79a443d435",
+        "version" : "7.6.2"
+      }
+    },
+    {
+      "identity" : "navstack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexanderleo0/NavStack",
+      "state" : {
+        "branch" : "HW-04",
+        "revision" : "f82f1f5d15c149edac5c3f5f3500a55006d4ce85"
+      }
+    },
+    {
+      "identity" : "networking",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alexanderleo0/Networking",
+      "state" : {
+        "branch" : "HW-04",
+        "revision" : "5814e96907af1e10d9aeb18e8b9ee5ab1841db98"
+      }
+    }
+  ],
+  "version" : 2
+}

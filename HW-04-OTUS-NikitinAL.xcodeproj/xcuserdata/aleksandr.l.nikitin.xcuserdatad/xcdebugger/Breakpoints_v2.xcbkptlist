@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6E620FF3-FDFB-497D-9DC3-7C1F82722F5D"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "420B1649-2F7E-4C7E-A241-7FE7BEB51F53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW-04-OTUS-NikitinAL/ServiceLocator/Injected.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "wrappedValue"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "420B1649-2F7E-4C7E-A241-7FE7BEB51F53 - 26e75a458ce69899"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_04_OTUS_NikitinAL.Injected.wrappedValue.setter : Swift.Optional&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "HW-04-OTUS-NikitinAL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr.l.nikitin/Documents/OTUS-SwiftUI/HW-04-OTUS-NikitinAL/HW-04-OTUS-NikitinAL/ServiceLocator/Injected.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "420B1649-2F7E-4C7E-A241-7FE7BEB51F53 - e5957be23e242cfb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_04_OTUS_NikitinAL.Injected.wrappedValue.getter : Swift.Optional&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "HW-04-OTUS-NikitinAL"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aleksandr.l.nikitin/Documents/OTUS-SwiftUI/HW-04-OTUS-NikitinAL/HW-04-OTUS-NikitinAL/ServiceLocator/Injected.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "920">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "21BCB716-23B2-4DFB-9F4F-65D8D0E90459"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW-04-OTUS-NikitinAL/ViewModel/VMforDeals.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "init(forStore:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E706B2F4-E01A-4D73-9C09-07EC405D7C34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/MainScreen-ViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "getVMforDeals(byStore:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
