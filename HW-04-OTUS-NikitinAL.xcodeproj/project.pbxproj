@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7B20555029DF58A9004F4053 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B20554F29DF58A9004F4053 /* MainViewModel.swift */; };
 		7B20555629DF5A08004F4053 /* VMforStores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B20555529DF5A08004F4053 /* VMforStores.swift */; };
 		7B3051E729EEDED6002FB1E9 /* ALNServices in Frameworks */ = {isa = PBXBuildFile; productRef = 7B3051E629EEDED6002FB1E9 /* ALNServices */; };
 		7B39296C29DC18760065B0B4 /* HW_04_OTUS_NikitinALApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B39296B29DC18760065B0B4 /* HW_04_OTUS_NikitinALApp.swift */; };
@@ -16,6 +15,7 @@
 		7B39297329DC18770065B0B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B39297229DC18770065B0B4 /* Preview Assets.xcassets */; };
 		7B39299829DC2F380065B0B4 /* Configurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B39299529DC2F380065B0B4 /* Configurator.swift */; };
 		7B3929A429DC3E950065B0B4 /* DI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3929A329DC3E950065B0B4 /* DI.swift */; };
+		7B5AC2E52A12BBF200A6422E /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5AC2E42A12BBF200A6422E /* MainViewModel.swift */; };
 		7B69487029DC610F00A322BA /* Injected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69486F29DC610F00A322BA /* Injected.swift */; };
 		7B69487429DDF2FF00A322BA /* Store+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B69487329DDF2FF00A322BA /* Store+Identifiable.swift */; };
 		7BB5D4D129EED8570082CE6D /* ALNUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7BB5D4D029EED8570082CE6D /* ALNUI */; };
@@ -26,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B20554F29DF58A9004F4053 /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewModel.swift; path = "../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/MainViewModel.swift"; sourceTree = "<group>"; };
 		7B20555529DF5A08004F4053 /* VMforStores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMforStores.swift; sourceTree = "<group>"; };
 		7B39296829DC18760065B0B4 /* HW-04-OTUS-NikitinAL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW-04-OTUS-NikitinAL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B39296B29DC18760065B0B4 /* HW_04_OTUS_NikitinALApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_04_OTUS_NikitinALApp.swift; sourceTree = "<group>"; };
@@ -35,6 +34,7 @@
 		7B39297229DC18770065B0B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B39299529DC2F380065B0B4 /* Configurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurator.swift; sourceTree = "<group>"; };
 		7B3929A329DC3E950065B0B4 /* DI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DI.swift; sourceTree = "<group>"; };
+		7B5AC2E42A12BBF200A6422E /* MainViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		7B69486F29DC610F00A322BA /* Injected.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Injected.swift; sourceTree = "<group>"; };
 		7B69487329DDF2FF00A322BA /* Store+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Store+Identifiable.swift"; sourceTree = "<group>"; };
 		7BE8581E29E052520097FCF8 /* VMforDeals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VMforDeals.swift; sourceTree = "<group>"; };
@@ -115,8 +115,8 @@
 		7B69487129DDF20D00A322BA /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7B5AC2E42A12BBF200A6422E /* MainViewModel.swift */,
 				7BE8582329E089C30097FCF8 /* Extensions.swift */,
-				7B20554F29DF58A9004F4053 /* MainViewModel.swift */,
 				7B20555529DF5A08004F4053 /* VMforStores.swift */,
 				7BE8581E29E052520097FCF8 /* VMforDeals.swift */,
 			);
@@ -224,9 +224,9 @@
 				7B39299829DC2F380065B0B4 /* Configurator.swift in Sources */,
 				7BE8581F29E052520097FCF8 /* VMforDeals.swift in Sources */,
 				7B20555629DF5A08004F4053 /* VMforStores.swift in Sources */,
-				7B20555029DF58A9004F4053 /* MainViewModel.swift in Sources */,
 				7BE8582429E089C30097FCF8 /* Extensions.swift in Sources */,
 				7B69487429DDF2FF00A322BA /* Store+Identifiable.swift in Sources */,
+				7B5AC2E52A12BBF200A6422E /* MainViewModel.swift in Sources */,
 				7B39296E29DC18760065B0B4 /* MainScreen.swift in Sources */,
 				7B39296C29DC18760065B0B4 /* HW_04_OTUS_NikitinALApp.swift in Sources */,
 				7B3929A429DC3E950065B0B4 /* DI.swift in Sources */,
